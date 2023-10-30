@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project practice</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    body{
+        display: inline-flex;
+    }
+    .navbar{
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0.5vh;
+        display: inline-grid;
+        width: 10vw ;
+        grid-template-columns: 10vw;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding-top: 10vh;
+        /* width: 10vw; */
+        /* height: 2vh; */
+        line-height: 4vh;   
+        /* border: 1vh solid blue; */
+        /* grid-column: 1/span; */
+    }
+    ul{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 10vw;
+        /* justify-content: right; */
+        text-align: left;
+        height: 100vh;
+    }
+    .image{
+        animation: animation_image 2s ease-in-out infinite alternate;
+    }
+    /* .image:hover{
+        transform-origin: 50%; 
+        transform: rotatez(45deg);
+        height: 20vh;
+        transition: height 3s ease-in;
+        transform: scaleX(50%);
+    } */
+    .container{
+        width: 10vw;
+        height: 50vh;
+        background-color: red;
+        /* animation-name: animation_image;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate-reverse; */
+
+        animation: animation_image 2s ease-in-out infinite alternate;
+    }
+    @keyframes animation_image {
+        from{
+            /* width: 2vw; */
+            height: 50vh;
+        }
+        to{
+            /* width: 20vw; */
+            height: 100vh;
+        }
+    }
+</style>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Options</li>
+            <li>About</li>
+        </ul>
+    </div>
+    <div class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, molestias repellat nemo, quae, magnam enim corrupti vitae eligendi voluptatem alias reprehenderit. Omnis perferendis cumque tempora veniam maiores quidem saepe vitae.</div>
+    <div class="image">
+        <img src="img.jpg" ></img>
+    </div>
+</body>
+</html>

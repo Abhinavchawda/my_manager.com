@@ -1,0 +1,16 @@
+
+
+.contact_text{
+    font-size: large;
+    height: 40.5vh;
+    width: 70vw;
+    padding: 5vh;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue  ;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+

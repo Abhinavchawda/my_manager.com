@@ -1,0 +1,150 @@
+
+
+.content{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: 2vh auto;
+    padding: 2vh;
+    background: aliceblue ;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+
+.tasks_content{
+    height: 10vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+    padding: 2vh;
+    background: aliceblue url('tasks_bc_img-removebg-preview.png') no-repeat;
+    background-size: contain;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+
+.finance_content{
+    height: 10vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+    padding: 2vh;
+    background: aliceblue url('budget_bc_image.webp') no-repeat;
+    background-size: contain;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+
+.diary_content{
+    height: 10vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh auto;
+    padding: 2vh;
+    background: aliceblue url('diary_bc_image.png') no-repeat;
+    background-size: contain;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+
+.notes{
+    margin: 5vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+.notes input{
+    margin: 2vh auto;
+    padding: 2vh;
+    height: 30vh;
+    width: 70vw;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+}
+
+/* .container table caption{
+    /* display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    margin: 2vh auto 0.5vh auto;
+    padding: 2vh;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+    height: 5vh;
+    width: 70vw;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.container table tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    width: 70vw;
+    margin: 0.5vh auto;
+    padding: 2vh;
+    background: aliceblue;
+    border-radius: 3vh;
+    border: 0.33vh solid rgb(70, 138, 255);
+} */
+
+
+.extra{
+    height: 20vh;
+}
+
+.extra_education{
+    height: 5vh;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 0.5vh;
+    margin: 2vh;
+}
+
+#finance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+#finance-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.new_finance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 10vh;
+}
